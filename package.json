@@ -1,6 +1,6 @@
 {
   "name": "simplehttpserver_unicorn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple HTTP Server",
   "main": "index.js",
   "scripts": {
