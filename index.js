@@ -12,7 +12,7 @@ class PipelineBuilder {
 	}
 }
 
-class SimpleHttpServer {
+module.exports = class SimpleHttpServer {
 	constructor(port) {
 
 		this.port = port;
