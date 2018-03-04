@@ -12,7 +12,7 @@ class PipelineBuilder {
 	}
 }
 
-module.exports = class SimpleHttpServer {
+class SimpleHttpServer {
 	constructor(port) {
 
 		this.port = port;
@@ -49,3 +49,5 @@ module.exports = class SimpleHttpServer {
 		}.bind(this)).listen(this.port); //the server object listens on port 8080
 	}
 }
+
+module.exports = {PipelineBuilder, SimpleHttpServer}
